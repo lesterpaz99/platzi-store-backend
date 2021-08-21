@@ -19,7 +19,7 @@ deploy:
   provider: heroku
   skip_cleanup: true
   keep_history: true
-  api_key: 240a34ca-3481-478a-a031-d0e81bdb12e5
+  api_key: $API_KEY_HEROKU
   app: platzi-store2-backend
   on:
     repo: lesterpaz99/platzi-store-backend
